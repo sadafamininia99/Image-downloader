@@ -1,0 +1,55 @@
+@keyframes "gradient" {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 500%;
+    animation: gradient 5s ease infinite;
+    margin: 0;
+    padding: 0;
+}
+
+.paragraph {
+    text-align: center;
+    font-size: 1rem;
+    padding: 20px;
+    margin: auto;
+}
+
+button.button {
+    border-radius: 100rem;
+    padding: 1rem;
+    font-family: 'Avenir Next';
+    font-size: 1rem;
+    padding: 0.5rem 3rem;
+    color: black;
+    box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+    border: solid 3px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #78e4ff, #ff48fa);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px #fff inset;
+}
+
+button.button:hover {
+    box-shadow: none;
+    color: white;
+}
+
+.R {
+    border-radius: 20px;
+}
+
+h1 {
+    font-size: 25px;
+    text-shadow: rgba(0, 250, 154, 1) -1px -2px 0.5em;
+}
